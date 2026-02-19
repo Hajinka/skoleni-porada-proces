@@ -4,7 +4,7 @@ flowchart LR
 %% ───────────── LANES ─────────────
 subgraph L1["Ředitel / Statutár"]
   direction TB
-  E0((Start))
+  E0(Vznik potřeby strategické porady)
   T1([Vznik potřeby strategické porady])
   T2([Stanovení termínu porady])
   T3([Stanovení programu porady])
