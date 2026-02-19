@@ -3,7 +3,7 @@ flowchart LR
 
 %% ───────────── SWIMLANES ─────────────
 subgraph L1["Ředitel / Statutár"]
-    A1[Vznik potřeby strategické porady<br/>(pravidelný měsíční cyklus)]
+    A1[Vznik potřeby strategické porady (pravidelný měsíční cyklus)]
     A2[Stanovení termínu porady]
     A3[Stanovení programu porady]
     A6[Zahájení porady]
@@ -30,6 +30,4 @@ subgraph L3["Členové týmu"]
 end
 
 %% ───────────── TOK PROCESU ─────────────
-
-%% Vznik potřeby
-A1 --> A2 -->
+A1 --> A
