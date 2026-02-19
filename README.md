@@ -1,7 +1,7 @@
 ```mermaid
 flowchart LR
 
-subgraph L1["Ředitel / Statutár"]
+subgraph L1["Strategická měsíční porada"]
   direction TB
   E0(("Vznik potřeby strategické porady"))
   T1(["Stanovení termínu porady"])
