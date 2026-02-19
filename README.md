@@ -1,4 +1,4 @@
-# skoleni-porada-proces
+```mermaid
 flowchart LR
 
 %% ───────────── SWIMLANES ─────────────
@@ -30,23 +30,6 @@ subgraph L3["Členové týmu"]
 end
 
 %% ───────────── TOK PROCESU ─────────────
-A1 --> A2 --> A3
-A3 --> B1
-A3 --> C1
-B1 --> B2
-C1 --> C2
-C2 --> A6
-A6 --> B4
-B4 --> A8
-A8 --> C4
-C4 --> B6
-B6 --> A8
-A8 -->|Diskuse sklouzne do detailu| B6
-A8 -->|Návrat ke strategii| B4
-A8 --> A11
-A11 --> B9
-A11 --> C6
-B9 --> B11
-C6 --> C8
-B11 --> A13
-C8 --> A13
+
+%% Vznik potřeby
+A1 --> A2 -->
